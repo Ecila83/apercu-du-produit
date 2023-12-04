@@ -7,6 +7,11 @@ $VeryDarkBlue: hsl(212, 21%, 14%);
 $DarkGrayishBlue: hsl(228, 12%, 48%);
 $White: hsl(0, 0%, 100%);
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font: {
         size: 14px;
@@ -25,6 +30,8 @@ body {
 .image__mobile {
     width: 350px;
     height: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .image__desktop {
@@ -35,7 +42,7 @@ body {
     width: 350px;
     height: auto;
     background-color:$White;
-    border-radius: 5px;    
+    border-radius: 15px;    
   }
   .contenu {
     padding: 5px;
@@ -86,7 +93,6 @@ body {
     text-align: center;
     font:{
         size: 20px;
-        weight: bold;
     }
     padding: {
         top :15px;
